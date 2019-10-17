@@ -1,0 +1,17 @@
+npm i --save-dev @babel/core @babel/loader @babel/preset-env @babel/preset-react @babel/node @babel/plugin-proposal-class-properties file-loader
+
+@babel/core => utk mencompile dari ES6 keatas ke ES5
+
+@babel/node => utk mengimport plugin n packages, di dlm webpack.config.js dibandingkan harus require them
+
+@babel/preset-env => utk will determine which transformation to use and polyfill
+
+@babel/preset-react => compile react code into ECMAScript 5 code
+
+@babel/loader => is webpack helper that transform to Vanilla JS with Babel misalnya mentranformasi import menjadi kata require_once
+
+@babel/plugin-proposal-class-properties => let us add classes, class properties into our classes , intinya membuat OOP pada JS
+
+file-loader  => import file, seperti images
+
+

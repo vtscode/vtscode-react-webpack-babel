@@ -1,0 +1,9 @@
+npm i --save-dev style-loader css-loader sass-loader node-sass
+
+style-loader => will add to the DOM the styles, it will inject style tag on HTML file.
+
+css-loader => let us import css file to our project
+
+sass-loader => let us import scss file into our project
+
+node-sass => to compile scss file into normal css file.
